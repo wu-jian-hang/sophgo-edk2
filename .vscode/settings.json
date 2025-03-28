@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+	"secmain.h": "c",
+	"pipei.h": "c",
+	"prepihoblistpointerlib.h": "c",
+	"serialportlib.h": "c",
+	"riscvimpl.h": "c",
+	"baselib.h": "c",
+	"basememorylib.h": "c",
+	"internalbm.h": "c",
+	"dxeimageverificationlib.h": "c",
+	"pidxe.h": "c",
+	"uefispec.h": "c",
+	"dxeserviceslib.h": "c",
+	"authvariablelib.h": "c",
+	"platformsecurelib.h": "c",
+	"securebootvariableprovisionlib.h": "c",
+	"basecryptlib.h": "c",
+	"variablepolicy.h": "c",
+	"securebootvariableverifypk.h": "c",
+	"hashpasswordlib.h": "c",
+	"uefiruntimeservicestablelib.h": "c"
+},
+    "editor.tabSize": 8,          
+    "editor.insertSpaces": false, 
+    "editor.detectIndentation": false 
+}

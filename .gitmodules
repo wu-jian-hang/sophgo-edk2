@@ -6,7 +6,7 @@
 	url = https://github.com/sophgo/edk2.git
 [submodule "edk2-platforms"]
 	path = edk2-platforms
-	url = https://github.com/sophgo/edk2-platforms.git
+	url = https://github.com/wu-jian-hang/edk2-platforms.git
 [submodule "external-modules/unicorn"]
 	path = external-modules/unicorn
 	url = https://github.com/sophgo/unicorn-for-efi.git

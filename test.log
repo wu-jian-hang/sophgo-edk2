@@ -1,0 +1,907 @@
+~/sophgo-edk2 ~/sophgo-edk2
+为 'edk2' 同步子模组 url
+为 'edk2-non-osi' 同步子模组 url
+为 'edk2-platforms' 同步子模组 url
+为 'external-modules/MultiArchUefiPkg' 同步子模组 url
+为 'external-modules/unicorn' 同步子模组 url
+Loading previous configuration from /home/admin1/sophgo-edk2/edk2/Conf/BuildEnv.sh
+WORKSPACE: /home/admin1/sophgo-edk2
+EDK_TOOLS_PATH: /home/admin1/sophgo-edk2/edk2/BaseTools
+CONF_PATH: /home/admin1/sophgo-edk2/edk2/Conf
+make: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools”
+make -C Source/C
+make -C Source/Python
+make[1]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C”
+make[1]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/Python”
+make[1]: 对“all”无需做任何事。
+make[1]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/Python”
+Attempting to detect HOST_ARCH from 'uname -m': x86_64
+Detected HOST_ARCH of X64 using uname.
+mkdir -p .
+make -C Common
+make[2]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/Common”
+make[2]: 对“all”无需做任何事。
+make[2]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/Common”
+make -C BrotliCompress
+make -C VfrCompile
+make -C EfiRom
+make -C GenFfs
+make -C GenFv
+make -C GenFw
+make -C GenSec
+make[2]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/VfrCompile”
+make -C GenCrc32
+make[2]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/EfiRom”
+make[2]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/BrotliCompress”
+make -C LzmaCompress
+make[2]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/GenFfs”
+make -C TianoCompress
+make[2]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/GenFv”
+make -C VolInfo
+make[2]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/GenFw”
+make[2]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/GenSec”
+make -C DevicePath
+make[2]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/GenCrc32”
+make[2]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/LzmaCompress”
+make[2]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/TianoCompress”
+make[2]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/VolInfo”
+make[2]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/DevicePath”
+make[2]: 对“all”无需做任何事。
+make[2]: 对“all”无需做任何事。
+make[2]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/GenFfs”
+make[2]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/EfiRom”
+make[2]: 对“all”无需做任何事。
+make[2]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/GenFv”
+make[2]: 对“all”无需做任何事。
+make[2]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/GenSec”
+make[2]: 对“all”无需做任何事。
+make[2]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/GenFw”
+make[2]: 对“all”无需做任何事。
+make[2]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/VolInfo”
+make[2]: 对“all”无需做任何事。
+make[2]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/TianoCompress”
+make[2]: 对“all”无需做任何事。
+make[2]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/GenCrc32”
+make[2]: 对“all”无需做任何事。
+make[2]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/VfrCompile”
+make[2]: 对“all”无需做任何事。
+make[2]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/LzmaCompress”
+make[2]: 对“all”无需做任何事。
+make[2]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/DevicePath”
+make[2]: 对“all”无需做任何事。
+make[2]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C/BrotliCompress”
+Finished building BaseTools C Tools with HOST_ARCH=X64
+make[1]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Source/C”
+make -C Tests
+make[1]: 进入目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Tests”
+make[1]: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools/Tests”
+make: 离开目录“/home/admin1/sophgo-edk2/edk2/BaseTools”
+
+
+Processing meta-data .
+Architecture(s)  = RISCV64
+Build target     = DEBUG
+Toolchain        = GCC5
+
+Active Platform          = /home/admin1/sophgo-edk2/edk2-platforms/Platform/Sophgo/SG2044Pkg/SG2044.dsc
+.#.. done!
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/9FB1A1F3-3B71-4324-B39A-745CBB015FFFIp4Dxe/Ip4Dxe.offset --ModuleName=Ip4Dxe --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/NetworkPkg/Ip4Dxe/Ip4Dxe/DEBUG
+make: 对“tbuild”无需做任何事。
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/UiApp.offset --ModuleName=UiApp --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/Silicon/Sophgo/SG2044Pkg/Drivers/UiApp/UiApp/DEBUG
+make: 对“tbuild”无需做任何事。
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E1A86286-7806-4662-98BA-3DAA97C66B5BFirmwareManagerUiDxe/FirmwareManagerUiDxe.offset --ModuleName=FirmwareManagerUiDxe --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/Silicon/Sophgo/SG2044Pkg/Drivers/FirmwareManagerUiDxe/FirmwareManagerUiDxe/DEBUG
+make: 对“tbuild”无需做任何事。
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DReserveMemoryDxe/ReserveMemoryDxe.offset --ModuleName=ReserveMemoryDxe --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/Silicon/Sophgo/SG2044Pkg/Drivers/ReserveMemoryDxe/ReserveMemoryDxe/DEBUG
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/9FB1A1F3-3B71-4324-B39A-745CBB015FFFIp4Dxe/Ip4Dxe.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/9FB1A1F3-3B71-4324-B39A-745CBB015FFFIp4Dxe/Ip4DxeOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/9FB1A1F3-3B71-4324-B39A-745CBB015FFFIp4Dxe/Ip4Dxe.offset
+make: [GNUmakefile:474：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/9FB1A1F3-3B71-4324-B39A-745CBB015FFFIp4Dxe/Ip4DxeOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_DRIVER -g 9FB1A1F3-3B71-4324-B39A-745CBB015FFF -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/9FB1A1F3-3B71-4324-B39A-745CBB015FFFIp4Dxe/9FB1A1F3-3B71-4324-B39A-745CBB015FFF.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/9FB1A1F3-3B71-4324-B39A-745CBB015FFFIp4Dxe/9FB1A1F3-3B71-4324-B39A-745CBB015FFFSEC1.1.dpx -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/9FB1A1F3-3B71-4324-B39A-745CBB015FFFIp4Dxe/Ip4DxeOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/9FB1A1F3-3B71-4324-B39A-745CBB015FFFIp4Dxe/9FB1A1F3-3B71-4324-B39A-745CBB015FFFSEC2.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/9FB1A1F3-3B71-4324-B39A-745CBB015FFFIp4Dxe/9FB1A1F3-3B71-4324-B39A-745CBB015FFFSEC3.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/9FB1A1F3-3B71-4324-B39A-745CBB015FFFIp4Dxe/9FB1A1F3-3B71-4324-B39A-745CBB015FFFSEC4.ver
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/UiApp.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/UiAppOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/UiApp.offset
+make: [GNUmakefile:452：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/UiAppOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_APPLICATION -g 462CAA21-7614-4503-836E-8AB6F4662331 -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/462CAA21-7614-4503-836E-8AB6F4662331.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/462CAA21-7614-4503-836E-8AB6F4662331SEC1.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/UiAppOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/462CAA21-7614-4503-836E-8AB6F4662331SEC2.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/462CAA21-7614-4503-836E-8AB6F4662331SEC3.ver
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E1A86286-7806-4662-98BA-3DAA97C66B5BFirmwareManagerUiDxe/FirmwareManagerUiDxe.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E1A86286-7806-4662-98BA-3DAA97C66B5BFirmwareManagerUiDxe/FirmwareManagerUiDxeOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E1A86286-7806-4662-98BA-3DAA97C66B5BFirmwareManagerUiDxe/FirmwareManagerUiDxe.offset
+make: [GNUmakefile:408：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E1A86286-7806-4662-98BA-3DAA97C66B5BFirmwareManagerUiDxe/FirmwareManagerUiDxeOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_DRIVER -g E1A86286-7806-4662-98BA-3DAA97C66B5B -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E1A86286-7806-4662-98BA-3DAA97C66B5BFirmwareManagerUiDxe/E1A86286-7806-4662-98BA-3DAA97C66B5B.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E1A86286-7806-4662-98BA-3DAA97C66B5BFirmwareManagerUiDxe/E1A86286-7806-4662-98BA-3DAA97C66B5BSEC1.1.dpx -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E1A86286-7806-4662-98BA-3DAA97C66B5BFirmwareManagerUiDxe/FirmwareManagerUiDxeOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E1A86286-7806-4662-98BA-3DAA97C66B5BFirmwareManagerUiDxe/E1A86286-7806-4662-98BA-3DAA97C66B5BSEC2.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E1A86286-7806-4662-98BA-3DAA97C66B5BFirmwareManagerUiDxe/E1A86286-7806-4662-98BA-3DAA97C66B5BSEC3.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E1A86286-7806-4662-98BA-3DAA97C66B5BFirmwareManagerUiDxe/E1A86286-7806-4662-98BA-3DAA97C66B5BSEC4.ver
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSetDateAndTime/SetDateAndTime.offset --ModuleName=SetDateAndTime --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/Silicon/Sophgo/SG2044Pkg/Drivers/SetDateAndTime/SetDateAndTime/DEBUG
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DReserveMemoryDxe/ReserveMemoryDxe.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DReserveMemoryDxe/ReserveMemoryDxeOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DReserveMemoryDxe/ReserveMemoryDxe.offset
+make: [GNUmakefile:390：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DReserveMemoryDxe/ReserveMemoryDxeOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_DRIVER -g BFD0E2C6-76C9-4A95-8F76-CA5A87FC354D -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DReserveMemoryDxe/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354D.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DReserveMemoryDxe/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DSEC1.1.dpx -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DReserveMemoryDxe/ReserveMemoryDxeOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DReserveMemoryDxe/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DSEC2.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DReserveMemoryDxe/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DSEC3.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DReserveMemoryDxe/BFD0E2C6-76C9-4A95-8F76-CA5A87FC354DSEC4.ver
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSetDateAndTime/SetDateAndTime.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSetDateAndTime/SetDateAndTimeOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSetDateAndTime/SetDateAndTime.offset
+make: [GNUmakefile:388：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSetDateAndTime/SetDateAndTimeOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_DRIVER -g f77fd9a4-ac62-4a6d-b670-6e550d7a56ec -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSetDateAndTime/f77fd9a4-ac62-4a6d-b670-6e550d7a56ec.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSetDateAndTime/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSEC1.1.dpx -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSetDateAndTime/SetDateAndTimeOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSetDateAndTime/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSEC2.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSetDateAndTime/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSEC3.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSetDateAndTime/f77fd9a4-ac62-4a6d-b670-6e550d7a56ecSEC4.ver
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/D9397B44-8019-4086-A92C-2FE214CDFEFBSmbiosPlatformDxe/SmbiosPlatformDxe.offset --ModuleName=SmbiosPlatformDxe --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/Platform/Sophgo/SG2044Pkg/Drivers/SmbiosPlatformDxe/SmbiosPlatformDxe/DEBUG
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/b1e21fa9-fdf9-405d-af62-ce57f68924ebBMC/BMC.offset --ModuleName=BMC --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/Silicon/Sophgo/SG2044Pkg/Drivers/BmcLanConfigDxe/BmcLanConfig/DEBUG
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E660EA85-058E-4b55-A54B-F02F83A24707DisplayEngine/DisplayEngine.offset --ModuleName=DisplayEngine --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/DEBUG
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/D9397B44-8019-4086-A92C-2FE214CDFEFBSmbiosPlatformDxe/SmbiosPlatformDxe.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/D9397B44-8019-4086-A92C-2FE214CDFEFBSmbiosPlatformDxe/SmbiosPlatformDxeOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/D9397B44-8019-4086-A92C-2FE214CDFEFBSmbiosPlatformDxe/SmbiosPlatformDxe.offset
+make: [GNUmakefile:605：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/D9397B44-8019-4086-A92C-2FE214CDFEFBSmbiosPlatformDxe/SmbiosPlatformDxeOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_DRIVER -g D9397B44-8019-4086-A92C-2FE214CDFEFB -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/D9397B44-8019-4086-A92C-2FE214CDFEFBSmbiosPlatformDxe/D9397B44-8019-4086-A92C-2FE214CDFEFB.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/D9397B44-8019-4086-A92C-2FE214CDFEFBSmbiosPlatformDxe/D9397B44-8019-4086-A92C-2FE214CDFEFBSEC1.1.dpx -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/D9397B44-8019-4086-A92C-2FE214CDFEFBSmbiosPlatformDxe/SmbiosPlatformDxeOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/D9397B44-8019-4086-A92C-2FE214CDFEFBSmbiosPlatformDxe/D9397B44-8019-4086-A92C-2FE214CDFEFBSEC2.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/D9397B44-8019-4086-A92C-2FE214CDFEFBSmbiosPlatformDxe/D9397B44-8019-4086-A92C-2FE214CDFEFBSEC3.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/D9397B44-8019-4086-A92C-2FE214CDFEFBSmbiosPlatformDxe/D9397B44-8019-4086-A92C-2FE214CDFEFBSEC4.ver
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/b1e21fa9-fdf9-405d-af62-ce57f68924ebBMC/BMC.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/b1e21fa9-fdf9-405d-af62-ce57f68924ebBMC/BMCOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/b1e21fa9-fdf9-405d-af62-ce57f68924ebBMC/BMC.offset
+make: [GNUmakefile:401：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/b1e21fa9-fdf9-405d-af62-ce57f68924ebBMC/BMCOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_DRIVER -g b1e21fa9-fdf9-405d-af62-ce57f68924eb -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/b1e21fa9-fdf9-405d-af62-ce57f68924ebBMC/b1e21fa9-fdf9-405d-af62-ce57f68924eb.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/b1e21fa9-fdf9-405d-af62-ce57f68924ebBMC/b1e21fa9-fdf9-405d-af62-ce57f68924ebSEC1.1.dpx -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/b1e21fa9-fdf9-405d-af62-ce57f68924ebBMC/BMCOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/b1e21fa9-fdf9-405d-af62-ce57f68924ebBMC/b1e21fa9-fdf9-405d-af62-ce57f68924ebSEC2.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/b1e21fa9-fdf9-405d-af62-ce57f68924ebBMC/b1e21fa9-fdf9-405d-af62-ce57f68924ebSEC3.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/b1e21fa9-fdf9-405d-af62-ce57f68924ebBMC/b1e21fa9-fdf9-405d-af62-ce57f68924ebSEC4.ver
+make: 对“tbuild”无需做任何事。
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E660EA85-058E-4b55-A54B-F02F83A24707DisplayEngine/DisplayEngine.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E660EA85-058E-4b55-A54B-F02F83A24707DisplayEngine/DisplayEngineOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E660EA85-058E-4b55-A54B-F02F83A24707DisplayEngine/DisplayEngine.offset
+make: [GNUmakefile:396：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E660EA85-058E-4b55-A54B-F02F83A24707DisplayEngine/DisplayEngineOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_DRIVER -g E660EA85-058E-4b55-A54B-F02F83A24707 -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E660EA85-058E-4b55-A54B-F02F83A24707DisplayEngine/E660EA85-058E-4b55-A54B-F02F83A24707.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E660EA85-058E-4b55-A54B-F02F83A24707DisplayEngine/E660EA85-058E-4b55-A54B-F02F83A24707SEC1.1.dpx -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E660EA85-058E-4b55-A54B-F02F83A24707DisplayEngine/DisplayEngineOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E660EA85-058E-4b55-A54B-F02F83A24707DisplayEngine/E660EA85-058E-4b55-A54B-F02F83A24707SEC2.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E660EA85-058E-4b55-A54B-F02F83A24707DisplayEngine/E660EA85-058E-4b55-A54B-F02F83A24707SEC3.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E660EA85-058E-4b55-A54B-F02F83A24707DisplayEngine/E660EA85-058E-4b55-A54B-F02F83A24707SEC4.ver
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1Shell/Shell.offset --ModuleName=Shell --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/ShellPkg/Application/Shell/Shell/DEBUG
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1Shell/Shell.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1Shell/ShellOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1Shell/Shell.offset
+make: [GNUmakefile:480：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1Shell/ShellOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_APPLICATION -g 7C04A583-9E3E-4f1c-AD65-E05268D0B4D1 -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1Shell/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1Shell/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1SEC1.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1Shell/ShellOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1Shell/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1SEC2.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1Shell/7C04A583-9E3E-4f1c-AD65-E05268D0B4D1SEC3.ver
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/405f9bfd-f602-494e-bd46-c009fa963f9dInformation/Information.offset --ModuleName=Information --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/Silicon/Sophgo/SG2044Pkg/Drivers/Information/Information/DEBUG
+make: 对“tbuild”无需做任何事。
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EEC25BDC-67F2-4D95-B1D5-F81B2039D11DBootManagerMenuApp/BootManagerMenuApp.offset --ModuleName=BootManagerMenuApp --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/MdeModulePkg/Application/BootManagerMenuApp/BootManagerMenuApp/DEBUG
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/405f9bfd-f602-494e-bd46-c009fa963f9dInformation/Information.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/405f9bfd-f602-494e-bd46-c009fa963f9dInformation/InformationOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/405f9bfd-f602-494e-bd46-c009fa963f9dInformation/Information.offset
+make: [GNUmakefile:410：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/405f9bfd-f602-494e-bd46-c009fa963f9dInformation/InformationOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_DRIVER -g 405f9bfd-f602-494e-bd46-c009fa963f9d -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/405f9bfd-f602-494e-bd46-c009fa963f9dInformation/405f9bfd-f602-494e-bd46-c009fa963f9d.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/405f9bfd-f602-494e-bd46-c009fa963f9dInformation/405f9bfd-f602-494e-bd46-c009fa963f9dSEC1.1.dpx -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/405f9bfd-f602-494e-bd46-c009fa963f9dInformation/InformationOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/405f9bfd-f602-494e-bd46-c009fa963f9dInformation/405f9bfd-f602-494e-bd46-c009fa963f9dSEC2.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/405f9bfd-f602-494e-bd46-c009fa963f9dInformation/405f9bfd-f602-494e-bd46-c009fa963f9dSEC3.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/405f9bfd-f602-494e-bd46-c009fa963f9dInformation/405f9bfd-f602-494e-bd46-c009fa963f9dSEC4.ver
+make: 对“tbuild”无需做任何事。
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EEC25BDC-67F2-4D95-B1D5-F81B2039D11DBootManagerMenuApp/BootManagerMenuApp.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EEC25BDC-67F2-4D95-B1D5-F81B2039D11DBootManagerMenuApp/BootManagerMenuAppOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EEC25BDC-67F2-4D95-B1D5-F81B2039D11DBootManagerMenuApp/BootManagerMenuApp.offset
+make: [GNUmakefile:391：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EEC25BDC-67F2-4D95-B1D5-F81B2039D11DBootManagerMenuApp/BootManagerMenuAppOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_APPLICATION -g EEC25BDC-67F2-4D95-B1D5-F81B2039D11D -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EEC25BDC-67F2-4D95-B1D5-F81B2039D11DBootManagerMenuApp/EEC25BDC-67F2-4D95-B1D5-F81B2039D11D.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EEC25BDC-67F2-4D95-B1D5-F81B2039D11DBootManagerMenuApp/EEC25BDC-67F2-4D95-B1D5-F81B2039D11DSEC1.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EEC25BDC-67F2-4D95-B1D5-F81B2039D11DBootManagerMenuApp/BootManagerMenuAppOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EEC25BDC-67F2-4D95-B1D5-F81B2039D11DBootManagerMenuApp/EEC25BDC-67F2-4D95-B1D5-F81B2039D11DSEC2.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EEC25BDC-67F2-4D95-B1D5-F81B2039D11DBootManagerMenuApp/EEC25BDC-67F2-4D95-B1D5-F81B2039D11DSEC3.ver
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8EFirmwareUpdate/FirmwareUpdate.offset --ModuleName=FirmwareUpdate --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/Silicon/Sophgo/Applications/FirmwareUpdate/FirmwareUpdate/DEBUG
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E4F61863-FE2C-4b56-A8F4-08519BC439DFVlanConfigDxe/VlanConfigDxe.offset --ModuleName=VlanConfigDxe --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/NetworkPkg/VlanConfigDxe/VlanConfigDxe/DEBUG
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFDriverHealthManagerDxe/DriverHealthManagerDxe.offset --ModuleName=DriverHealthManagerDxe --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/DEBUG
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8EFirmwareUpdate/FirmwareUpdate.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8EFirmwareUpdate/FirmwareUpdateOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8EFirmwareUpdate/FirmwareUpdate.offset
+make: [GNUmakefile:384：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8EFirmwareUpdate/FirmwareUpdateOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_APPLICATION -g E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8E -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8EFirmwareUpdate/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8E.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8EFirmwareUpdate/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8ESEC1.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8EFirmwareUpdate/FirmwareUpdateOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8EFirmwareUpdate/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8ESEC2.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8EFirmwareUpdate/E7DDCEBB-CD46-4CCC-B9A9-D4D23FD5BE8ESEC3.ver
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/4cec385b-a187-4c4a-bece-e78552d2f31aPasswordConfigUiDxe/PasswordConfigUiDxe.offset --ModuleName=PasswordConfigUiDxe --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/Silicon/Sophgo/SG2044Pkg/Drivers/PasswordConfigDxe/PasswordConfigUiDxe/DEBUG
+make: 对“tbuild”无需做任何事。
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E4F61863-FE2C-4b56-A8F4-08519BC439DFVlanConfigDxe/VlanConfigDxe.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E4F61863-FE2C-4b56-A8F4-08519BC439DFVlanConfigDxe/VlanConfigDxeOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E4F61863-FE2C-4b56-A8F4-08519BC439DFVlanConfigDxe/VlanConfigDxe.offset
+make: [GNUmakefile:402：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E4F61863-FE2C-4b56-A8F4-08519BC439DFVlanConfigDxe/VlanConfigDxeOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_DRIVER -g E4F61863-FE2C-4b56-A8F4-08519BC439DF -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E4F61863-FE2C-4b56-A8F4-08519BC439DFVlanConfigDxe/E4F61863-FE2C-4b56-A8F4-08519BC439DF.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E4F61863-FE2C-4b56-A8F4-08519BC439DFVlanConfigDxe/E4F61863-FE2C-4b56-A8F4-08519BC439DFSEC1.1.dpx -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E4F61863-FE2C-4b56-A8F4-08519BC439DFVlanConfigDxe/VlanConfigDxeOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E4F61863-FE2C-4b56-A8F4-08519BC439DFVlanConfigDxe/E4F61863-FE2C-4b56-A8F4-08519BC439DFSEC2.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E4F61863-FE2C-4b56-A8F4-08519BC439DFVlanConfigDxe/E4F61863-FE2C-4b56-A8F4-08519BC439DFSEC3.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/E4F61863-FE2C-4b56-A8F4-08519BC439DFVlanConfigDxe/E4F61863-FE2C-4b56-A8F4-08519BC439DFSEC4.ver
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFDriverHealthManagerDxe/DriverHealthManagerDxe.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFDriverHealthManagerDxe/DriverHealthManagerDxeOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFDriverHealthManagerDxe/DriverHealthManagerDxe.offset
+make: [GNUmakefile:415：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFDriverHealthManagerDxe/DriverHealthManagerDxeOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_DRIVER -g EBF8ED7C-0DD1-4787-84F1-F48D537DCACF -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFDriverHealthManagerDxe/EBF8ED7C-0DD1-4787-84F1-F48D537DCACF.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFDriverHealthManagerDxe/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFSEC1.1.dpx -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFDriverHealthManagerDxe/DriverHealthManagerDxeOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFDriverHealthManagerDxe/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFSEC2.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFDriverHealthManagerDxe/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFSEC3.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFDriverHealthManagerDxe/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFSEC4.ver
+make: 对“tbuild”无需做任何事。
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/4cec385b-a187-4c4a-bece-e78552d2f31aPasswordConfigUiDxe/PasswordConfigUiDxe.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/4cec385b-a187-4c4a-bece-e78552d2f31aPasswordConfigUiDxe/PasswordConfigUiDxeOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/4cec385b-a187-4c4a-bece-e78552d2f31aPasswordConfigUiDxe/PasswordConfigUiDxe.offset
+make: [GNUmakefile:395：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/4cec385b-a187-4c4a-bece-e78552d2f31aPasswordConfigUiDxe/PasswordConfigUiDxeOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_DRIVER -g 4cec385b-a187-4c4a-bece-e78552d2f31a -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/4cec385b-a187-4c4a-bece-e78552d2f31aPasswordConfigUiDxe/4cec385b-a187-4c4a-bece-e78552d2f31a.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/4cec385b-a187-4c4a-bece-e78552d2f31aPasswordConfigUiDxe/4cec385b-a187-4c4a-bece-e78552d2f31aSEC1.1.dpx -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/4cec385b-a187-4c4a-bece-e78552d2f31aPasswordConfigUiDxe/PasswordConfigUiDxeOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/4cec385b-a187-4c4a-bece-e78552d2f31aPasswordConfigUiDxe/4cec385b-a187-4c4a-bece-e78552d2f31aSEC2.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/4cec385b-a187-4c4a-bece-e78552d2f31aPasswordConfigUiDxe/4cec385b-a187-4c4a-bece-e78552d2f31aSEC3.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/4cec385b-a187-4c4a-bece-e78552d2f31aPasswordConfigUiDxe/4cec385b-a187-4c4a-bece-e78552d2f31aSEC4.ver
+Trim --Vfr-Uni-Offset -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/F0E6A44F-7195-41c3-AC64-54F202CD0A21SecureBootConfigDxe/SecureBootConfigDxe.offset --ModuleName=SecureBootConfigDxe --DebugDir=/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/RISCV64/SecurityPkg/VariableAuthenticated/SecureBootConfigDxe/SecureBootConfigDxe/DEBUG
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+make: 对“tbuild”无需做任何事。
+test -e /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/F0E6A44F-7195-41c3-AC64-54F202CD0A21SecureBootConfigDxe/SecureBootConfigDxe.offset && GenSec -s EFI_SECTION_RAW -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/F0E6A44F-7195-41c3-AC64-54F202CD0A21SecureBootConfigDxe/SecureBootConfigDxeOffset.raw /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/F0E6A44F-7195-41c3-AC64-54F202CD0A21SecureBootConfigDxe/SecureBootConfigDxe.offset
+make: [GNUmakefile:453：/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/F0E6A44F-7195-41c3-AC64-54F202CD0A21SecureBootConfigDxe/SecureBootConfigDxeOffset.raw] 错误 1 (已忽略）
+GenFfs -t EFI_FV_FILETYPE_DRIVER -g F0E6A44F-7195-41c3-AC64-54F202CD0A21 -o /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/F0E6A44F-7195-41c3-AC64-54F202CD0A21SecureBootConfigDxe/F0E6A44F-7195-41c3-AC64-54F202CD0A21.ffs -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/F0E6A44F-7195-41c3-AC64-54F202CD0A21SecureBootConfigDxe/F0E6A44F-7195-41c3-AC64-54F202CD0A21SEC1.1.dpx -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/F0E6A44F-7195-41c3-AC64-54F202CD0A21SecureBootConfigDxe/SecureBootConfigDxeOffset.raw -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/F0E6A44F-7195-41c3-AC64-54F202CD0A21SecureBootConfigDxe/F0E6A44F-7195-41c3-AC64-54F202CD0A21SEC2.1.pe32 -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/F0E6A44F-7195-41c3-AC64-54F202CD0A21SecureBootConfigDxe/F0E6A44F-7195-41c3-AC64-54F202CD0A21SEC3.ui -oi /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Ffs/F0E6A44F-7195-41c3-AC64-54F202CD0A21SecureBootConfigDxe/F0E6A44F-7195-41c3-AC64-54F202CD0A21SEC4.ver
+
+Fd File Name:SG2044 (/home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/SG2044.fd)
+
+Generate Region at Offset 0x0
+   Region Size = 0x800000
+   Region Name = FV
+
+Generating FVMAIN_COMPACT FV
+
+Generating DXEFV FV
+#########
+Generate Region at Offset 0x800000
+   Region Size = 0x10000
+   Region Name = DATA
+
+Generate Region at Offset 0x810000
+   Region Size = 0x10000
+   Region Name = DATA
+
+Generate Region at Offset 0x820000
+   Region Size = 0x10000
+   Region Name = None
+
+GUID cross reference file can be found at /home/admin1/sophgo-edk2/Build/SG2044/DEBUG_GCC5/FV/Guid.xref
+
+FV Space Information
+DXEFV [99%Full] 12845056 (0xc40000) total, 12818304 (0xc39780) used, 26752 (0x6880) free
+FVMAIN_COMPACT [23%Full] 8388608 (0x800000) total, 1946200 (0x1db258) used, 6442408 (0x624da8) free
+~/sophgo-edk2
+test_Common_Edk2___init__ (CheckPythonSyntax.Tests) ... ok
+test_Common_EdkLogger (CheckPythonSyntax.Tests) ... ok
+test_Common_Expression (CheckPythonSyntax.Tests) ... ok
+test_Common_GlobalData (CheckPythonSyntax.Tests) ... ok
+test_Common_LongFilePathOs (CheckPythonSyntax.Tests) ... ok
+test_Common_LongFilePathOsPath (CheckPythonSyntax.Tests) ... ok
+test_Common_LongFilePathSupport (CheckPythonSyntax.Tests) ... ok
+test_Common_Misc (CheckPythonSyntax.Tests) ... ok
+test_Common_MultipleWorkspace (CheckPythonSyntax.Tests) ... ok
+test_Common_Parsing (CheckPythonSyntax.Tests) ... ok
+test_Common_RangeExpression (CheckPythonSyntax.Tests) ... ok
+test_Common_StringUtils (CheckPythonSyntax.Tests) ... ok
+test_Common_TargetTxtClassObject (CheckPythonSyntax.Tests) ... ok
+test_Common_ToolDefClassObject (CheckPythonSyntax.Tests) ... ok
+test_Common_Uefi_Capsule_CapsuleDependency (CheckPythonSyntax.Tests) ... ok
+test_Common_Uefi_Capsule_FmpAuthHeader (CheckPythonSyntax.Tests) ... ok
+test_Common_Uefi_Capsule_FmpCapsuleHeader (CheckPythonSyntax.Tests) ... ok
+test_Common_Uefi_Capsule_UefiCapsuleHeader (CheckPythonSyntax.Tests) ... ok
+test_Common_Uefi_Capsule___init__ (CheckPythonSyntax.Tests) ... ok
+test_Common_Uefi___init__ (CheckPythonSyntax.Tests) ... ok
+test_Common_VariableAttributes (CheckPythonSyntax.Tests) ... ok
+test_Common_VpdInfoFile (CheckPythonSyntax.Tests) ... ok
+test_Common___init__ (CheckPythonSyntax.Tests) ... ok
+test_Common_caching (CheckPythonSyntax.Tests) ... ok
+test_Ecc_CParser3_CLexer (CheckPythonSyntax.Tests) ... ok
+test_Ecc_CParser3_CParser (CheckPythonSyntax.Tests) ... ok
+test_Ecc_CParser3___init__ (CheckPythonSyntax.Tests) ... ok
+test_Ecc_CParser4_CLexer (CheckPythonSyntax.Tests) ... ok
+test_Ecc_CParser4_CListener (CheckPythonSyntax.Tests) ... ok
+test_Ecc_CParser4_CParser (CheckPythonSyntax.Tests) ... ok
+test_Ecc_CParser4___init__ (CheckPythonSyntax.Tests) ... ok
+test_Ecc_Check (CheckPythonSyntax.Tests) ... ok
+test_Ecc_CodeFragment (CheckPythonSyntax.Tests) ... ok
+test_Ecc_CodeFragmentCollector (CheckPythonSyntax.Tests) ... ok
+test_Ecc_Configuration (CheckPythonSyntax.Tests) ... ok
+test_Ecc_Database (CheckPythonSyntax.Tests) ... ok
+test_Ecc_EccGlobalData (CheckPythonSyntax.Tests) ... ok
+test_Ecc_EccMain (CheckPythonSyntax.Tests) ... ok
+test_Ecc_EccToolError (CheckPythonSyntax.Tests) ... ok
+test_Ecc_Exception (CheckPythonSyntax.Tests) ... ok
+test_Ecc_FileProfile (CheckPythonSyntax.Tests) ... ok
+test_Ecc_MetaDataParser (CheckPythonSyntax.Tests) ... ok
+test_Ecc_MetaFileWorkspace_MetaDataTable (CheckPythonSyntax.Tests) ... ok
+test_Ecc_MetaFileWorkspace_MetaFileParser (CheckPythonSyntax.Tests) ... ok
+test_Ecc_MetaFileWorkspace_MetaFileTable (CheckPythonSyntax.Tests) ... ok
+test_Ecc_MetaFileWorkspace___init__ (CheckPythonSyntax.Tests) ... ok
+test_Ecc_ParserWarning (CheckPythonSyntax.Tests) ... ok
+test_Ecc_Xml_XmlRoutines (CheckPythonSyntax.Tests) ... ok
+test_Ecc_Xml___init__ (CheckPythonSyntax.Tests) ... ok
+test_Ecc___init__ (CheckPythonSyntax.Tests) ... ok
+test_Ecc_c (CheckPythonSyntax.Tests) ... ok
+test_Eot_CParser3_CLexer (CheckPythonSyntax.Tests) ... ok
+test_Eot_CParser3_CParser (CheckPythonSyntax.Tests) ... ok
+test_Eot_CParser3___init__ (CheckPythonSyntax.Tests) ... ok
+test_Eot_CParser4_CLexer (CheckPythonSyntax.Tests) ... ok
+test_Eot_CParser4_CListener (CheckPythonSyntax.Tests) ... ok
+test_Eot_CParser4_CParser (CheckPythonSyntax.Tests) ... ok
+test_Eot_CParser4___init__ (CheckPythonSyntax.Tests) ... ok
+test_Eot_CodeFragment (CheckPythonSyntax.Tests) ... ok
+test_Eot_CodeFragmentCollector (CheckPythonSyntax.Tests) ... ok
+test_Eot_Database (CheckPythonSyntax.Tests) ... ok
+test_Eot_EotGlobalData (CheckPythonSyntax.Tests) ... ok
+test_Eot_EotMain (CheckPythonSyntax.Tests) ... ok
+test_Eot_EotToolError (CheckPythonSyntax.Tests) ... ok
+test_Eot_FileProfile (CheckPythonSyntax.Tests) ... ok
+test_Eot_Identification (CheckPythonSyntax.Tests) ... ok
+test_Eot_InfParserLite (CheckPythonSyntax.Tests) ... ok
+test_Eot_Parser (CheckPythonSyntax.Tests) ... ok
+test_Eot_ParserWarning (CheckPythonSyntax.Tests) ... ok
+test_Eot_Report (CheckPythonSyntax.Tests) ... ok
+test_Eot___init__ (CheckPythonSyntax.Tests) ... ok
+test_Eot_c (CheckPythonSyntax.Tests) ... ok
+test_FMMT_FMMT (CheckPythonSyntax.Tests) ... ok
+test_FMMT___init__ (CheckPythonSyntax.Tests) ... ok
+test_FMMT_core_BinaryFactoryProduct (CheckPythonSyntax.Tests) ... ok
+test_FMMT_core_BiosTree (CheckPythonSyntax.Tests) ... ok
+test_FMMT_core_BiosTreeNode (CheckPythonSyntax.Tests) ... ok
+test_FMMT_core_FMMTOperation (CheckPythonSyntax.Tests) ... ok
+test_FMMT_core_FMMTParser (CheckPythonSyntax.Tests) ... ok
+test_FMMT_core_FvHandler (CheckPythonSyntax.Tests) ... ok
+test_FMMT_core_GuidTools (CheckPythonSyntax.Tests) ... ok
+test_FMMT_utils_FmmtLogger (CheckPythonSyntax.Tests) ... ok
+test_FMMT_utils_FvLayoutPrint (CheckPythonSyntax.Tests) ... ok
+test_FirmwareStorageFormat_Common (CheckPythonSyntax.Tests) ... ok
+test_FirmwareStorageFormat_FfsFileHeader (CheckPythonSyntax.Tests) ... ok
+test_FirmwareStorageFormat_FvHeader (CheckPythonSyntax.Tests) ... ok
+test_FirmwareStorageFormat_SectionHeader (CheckPythonSyntax.Tests) ... ok
+test_FirmwareStorageFormat_UPLHeader (CheckPythonSyntax.Tests) ... ok
+test_FirmwareStorageFormat___init__ (CheckPythonSyntax.Tests) ... ok
+test_GenFds_AprioriSection (CheckPythonSyntax.Tests) ... ok
+test_GenFds_Capsule (CheckPythonSyntax.Tests) ... ok
+test_GenFds_CapsuleData (CheckPythonSyntax.Tests) ... ok
+test_GenFds_CompressSection (CheckPythonSyntax.Tests) ... ok
+test_GenFds_DataSection (CheckPythonSyntax.Tests) ... ok
+test_GenFds_DepexSection (CheckPythonSyntax.Tests) ... ok
+test_GenFds_EfiSection (CheckPythonSyntax.Tests) ... ok
+test_GenFds_Fd (CheckPythonSyntax.Tests) ... ok
+test_GenFds_FdfParser (CheckPythonSyntax.Tests) ... ok
+test_GenFds_Ffs (CheckPythonSyntax.Tests) ... ok
+test_GenFds_FfsFileStatement (CheckPythonSyntax.Tests) ... ok
+test_GenFds_FfsInfStatement (CheckPythonSyntax.Tests) ... ok
+test_GenFds_Fv (CheckPythonSyntax.Tests) ... ok
+test_GenFds_FvImageSection (CheckPythonSyntax.Tests) ... ok
+test_GenFds_GenFds (CheckPythonSyntax.Tests) ... ok
+test_GenFds_GenFdsGlobalVariable (CheckPythonSyntax.Tests) ... ok
+test_GenFds_GuidSection (CheckPythonSyntax.Tests) ... ok
+test_GenFds_OptRomFileStatement (CheckPythonSyntax.Tests) ... ok
+test_GenFds_OptRomInfStatement (CheckPythonSyntax.Tests) ... ok
+test_GenFds_OptionRom (CheckPythonSyntax.Tests) ... ok
+test_GenFds_Region (CheckPythonSyntax.Tests) ... ok
+test_GenFds_Rule (CheckPythonSyntax.Tests) ... ok
+test_GenFds_RuleComplexFile (CheckPythonSyntax.Tests) ... ok
+test_GenFds_RuleSimpleFile (CheckPythonSyntax.Tests) ... ok
+test_GenFds_Section (CheckPythonSyntax.Tests) ... ok
+test_GenFds_SubTypeGuidSection (CheckPythonSyntax.Tests) ... ok
+test_GenFds_UiSection (CheckPythonSyntax.Tests) ... ok
+test_GenFds_VerSection (CheckPythonSyntax.Tests) ... ok
+test_GenFds___init__ (CheckPythonSyntax.Tests) ... ok
+test_GenPatchPcdTable_GenPatchPcdTable (CheckPythonSyntax.Tests) ... ok
+test_GenPatchPcdTable___init__ (CheckPythonSyntax.Tests) ... ok
+test_PatchPcdValue_PatchPcdValue (CheckPythonSyntax.Tests) ... ok
+test_PatchPcdValue___init__ (CheckPythonSyntax.Tests) ... ok
+test_Pkcs7Sign_Pkcs7Sign (CheckPythonSyntax.Tests) ... ok
+test_Rsa2048Sha256Sign_Rsa2048Sha256GenerateKeys (CheckPythonSyntax.Tests) ... ok
+test_Rsa2048Sha256Sign_Rsa2048Sha256Sign (CheckPythonSyntax.Tests) ... ok
+test_Split_Split (CheckPythonSyntax.Tests) ... ok
+test_Split___init__ (CheckPythonSyntax.Tests) ... ok
+test_Table_Table (CheckPythonSyntax.Tests) ... ok
+test_Table_TableDataModel (CheckPythonSyntax.Tests) ... ok
+test_Table_TableDec (CheckPythonSyntax.Tests) ... ok
+test_Table_TableDsc (CheckPythonSyntax.Tests) ... ok
+test_Table_TableEotReport (CheckPythonSyntax.Tests) ... ok
+test_Table_TableFdf (CheckPythonSyntax.Tests) ... ok
+test_Table_TableFile (CheckPythonSyntax.Tests) ... ok
+test_Table_TableFunction (CheckPythonSyntax.Tests) ... ok
+test_Table_TableIdentifier (CheckPythonSyntax.Tests) ... ok
+test_Table_TableInf (CheckPythonSyntax.Tests) ... ok
+test_Table_TablePcd (CheckPythonSyntax.Tests) ... ok
+test_Table_TableQuery (CheckPythonSyntax.Tests) ... ok
+test_Table_TableReport (CheckPythonSyntax.Tests) ... ok
+test_Table___init__ (CheckPythonSyntax.Tests) ... ok
+test_TargetTool_TargetTool (CheckPythonSyntax.Tests) ... ok
+test_TargetTool___init__ (CheckPythonSyntax.Tests) ... ok
+test_Trim_Trim (CheckPythonSyntax.Tests) ... ok
+test_UPT_BuildVersion (CheckPythonSyntax.Tests) ... ok
+test_UPT_Core_DependencyRules (CheckPythonSyntax.Tests) ... ok
+test_UPT_Core_DistributionPackageClass (CheckPythonSyntax.Tests) ... ok
+test_UPT_Core_FileHook (CheckPythonSyntax.Tests) ... ok
+test_UPT_Core_IpiDb (CheckPythonSyntax.Tests) ... ok
+test_UPT_Core_PackageFile (CheckPythonSyntax.Tests) ... ok
+test_UPT_Core___init__ (CheckPythonSyntax.Tests) ... ok
+test_UPT_GenMetaFile_GenDecFile (CheckPythonSyntax.Tests) ... ok
+test_UPT_GenMetaFile_GenInfFile (CheckPythonSyntax.Tests) ... ok
+test_UPT_GenMetaFile_GenMetaFileMisc (CheckPythonSyntax.Tests) ... ok
+test_UPT_GenMetaFile_GenXmlFile (CheckPythonSyntax.Tests) ... ok
+test_UPT_GenMetaFile___init__ (CheckPythonSyntax.Tests) ... ok
+test_UPT_InstallPkg (CheckPythonSyntax.Tests) ... ok
+test_UPT_InventoryWs (CheckPythonSyntax.Tests) ... ok
+test_UPT_Library_CommentGenerating (CheckPythonSyntax.Tests) ... ok
+test_UPT_Library_CommentParsing (CheckPythonSyntax.Tests) ... ok
+test_UPT_Library_DataType (CheckPythonSyntax.Tests) ... ok
+test_UPT_Library_ExpressionValidate (CheckPythonSyntax.Tests) ... ok
+test_UPT_Library_GlobalData (CheckPythonSyntax.Tests) ... ok
+test_UPT_Library_Misc (CheckPythonSyntax.Tests) ... ok
+test_UPT_Library_ParserValidate (CheckPythonSyntax.Tests) ... ok
+test_UPT_Library_Parsing (CheckPythonSyntax.Tests) ... ok
+test_UPT_Library_StringUtils (CheckPythonSyntax.Tests) ... ok
+test_UPT_Library_UniClassObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Library_Xml_XmlRoutines (CheckPythonSyntax.Tests) ... ok
+test_UPT_Library_Xml___init__ (CheckPythonSyntax.Tests) ... ok
+test_UPT_Library___init__ (CheckPythonSyntax.Tests) ... ok
+test_UPT_Logger_Log (CheckPythonSyntax.Tests) ... ok
+test_UPT_Logger_StringTable (CheckPythonSyntax.Tests) ... ok
+test_UPT_Logger_ToolError (CheckPythonSyntax.Tests) ... ok
+test_UPT_Logger___init__ (CheckPythonSyntax.Tests) ... ok
+test_UPT_MkPkg (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_POM_CommonObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_POM_ModuleObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_POM_PackageObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_POM___init__ (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_DecObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfBinaryObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfBuildOptionObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfCommonObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfDefineCommonObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfDefineObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfDepexObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfGuidObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfHeaderObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfLibraryClassesObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfMisc (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfPackagesObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfPcdObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfPpiObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfProtocolObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfSoucesObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser_InfUserExtensionObject (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object_Parser___init__ (CheckPythonSyntax.Tests) ... ok
+test_UPT_Object___init__ (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_DecParser (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_DecParserMisc (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_InfAsBuiltProcess (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_InfBinarySectionParser (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_InfBuildOptionSectionParser (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_InfDefineSectionParser (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_InfDepexSectionParser (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_InfGuidPpiProtocolSectionParser (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_InfLibrarySectionParser (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_InfPackageSectionParser (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_InfParser (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_InfParserMisc (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_InfPcdSectionParser (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_InfSectionParser (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser_InfSourceSectionParser (CheckPythonSyntax.Tests) ... ok
+test_UPT_Parser___init__ (CheckPythonSyntax.Tests) ... ok
+test_UPT_PomAdapter_DecPomAlignment (CheckPythonSyntax.Tests) ... ok
+test_UPT_PomAdapter_InfPomAlignment (CheckPythonSyntax.Tests) ... ok
+test_UPT_PomAdapter_InfPomAlignmentMisc (CheckPythonSyntax.Tests) ... ok
+test_UPT_PomAdapter___init__ (CheckPythonSyntax.Tests) ... ok
+test_UPT_ReplacePkg (CheckPythonSyntax.Tests) ... ok
+test_UPT_RmPkg (CheckPythonSyntax.Tests) ... ok
+test_UPT_TestInstall (CheckPythonSyntax.Tests) ... ok
+test_UPT_UPT (CheckPythonSyntax.Tests) ... ok
+test_UPT_UnitTest_CommentGeneratingUnitTest (CheckPythonSyntax.Tests) ... ok
+test_UPT_UnitTest_CommentParsingUnitTest (CheckPythonSyntax.Tests) ... ok
+test_UPT_UnitTest_DecParserTest (CheckPythonSyntax.Tests) ... ok
+test_UPT_UnitTest_DecParserUnitTest (CheckPythonSyntax.Tests) ... ok
+test_UPT_UnitTest_InfBinarySectionTest (CheckPythonSyntax.Tests) ... ok
+test_UPT_Xml_CommonXml (CheckPythonSyntax.Tests) ... ok
+test_UPT_Xml_GuidProtocolPpiXml (CheckPythonSyntax.Tests) ... ok
+test_UPT_Xml_IniToXml (CheckPythonSyntax.Tests) ... ok
+test_UPT_Xml_ModuleSurfaceAreaXml (CheckPythonSyntax.Tests) ... ok
+test_UPT_Xml_PackageSurfaceAreaXml (CheckPythonSyntax.Tests) ... ok
+test_UPT_Xml_PcdXml (CheckPythonSyntax.Tests) ... ok
+test_UPT_Xml_XmlParser (CheckPythonSyntax.Tests) ... ok
+test_UPT_Xml_XmlParserMisc (CheckPythonSyntax.Tests) ... ok
+test_UPT_Xml___init__ (CheckPythonSyntax.Tests) ... ok
+test_Workspace_BuildClassObject (CheckPythonSyntax.Tests) ... ok
+test_Workspace_DecBuildData (CheckPythonSyntax.Tests) ... ok
+test_Workspace_DscBuildData (CheckPythonSyntax.Tests) ... ok
+test_Workspace_InfBuildData (CheckPythonSyntax.Tests) ... ok
+test_Workspace_MetaDataTable (CheckPythonSyntax.Tests) ... ok
+test_Workspace_MetaFileCommentParser (CheckPythonSyntax.Tests) ... ok
+test_Workspace_MetaFileParser (CheckPythonSyntax.Tests) ... ok
+test_Workspace_MetaFileTable (CheckPythonSyntax.Tests) ... ok
+test_Workspace_WorkspaceCommon (CheckPythonSyntax.Tests) ... ok
+test_Workspace_WorkspaceDatabase (CheckPythonSyntax.Tests) ... ok
+test_Workspace___init__ (CheckPythonSyntax.Tests) ... ok
+test_build_BuildReport (CheckPythonSyntax.Tests) ... ok
+test_build___init__ (CheckPythonSyntax.Tests) ... ok
+test_build_build (CheckPythonSyntax.Tests) ... ok
+test_build_buildoptions (CheckPythonSyntax.Tests) ... ok
+test_sitecustomize (CheckPythonSyntax.Tests) ... ok
+test_tests_Split_test_split (CheckPythonSyntax.Tests) ... ok
+test32bitUnicodeCharInUtf8Comment (CheckUnicodeSourceFiles.Tests) ... ok
+test32bitUnicodeCharInUtf8File (CheckUnicodeSourceFiles.Tests) ... ok
+testSupplementaryPlaneUnicodeCharInUtf16File (CheckUnicodeSourceFiles.Tests) ... ok
+testSurrogatePairUnicodeCharInUtf16File (CheckUnicodeSourceFiles.Tests) ... ok
+testSurrogatePairUnicodeCharInUtf8File (CheckUnicodeSourceFiles.Tests) ... ok
+testSurrogatePairUnicodeCharInUtf8FileWithBom (CheckUnicodeSourceFiles.Tests) ... ok
+testUtf16InUniFile (CheckUnicodeSourceFiles.Tests) ... ok
+testValidUtf8File (CheckUnicodeSourceFiles.Tests) ... ok
+testValidUtf8FileWithBom (CheckUnicodeSourceFiles.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 303 tests in 0.826s
+
+OK
+Build environment: Linux-6.8.0-52-generic-x86_64-with-glibc2.35
+Build start time: 19:18:04, Mar.24 2025
+
+WORKSPACE        = /home/admin1/sophgo-edk2
+PACKAGES_PATH    = /home/admin1/sophgo-edk2/edk2:/home/admin1/sophgo-edk2/edk2-platforms:/home/admin1/sophgo-edk2/edk2-non-osi:/home/admin1/sophgo-edk2/external-modules
+EDK_TOOLS_PATH   = /home/admin1/sophgo-edk2/edk2/BaseTools
+CONF_PATH        = /home/admin1/sophgo-edk2/edk2/Conf
+PYTHON_COMMAND   = python3
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/StackCheckLibNull/StackCheckLibNull.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BaseSerialPortLibRiscVSbiLib/BaseSerialPortLibRiscVSbiLibRam.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BasePrintLib/BasePrintLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BaseRiscVSbiLib/BaseRiscVSbiLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BaseMemoryLib/BaseMemoryLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BaseLib/BaseLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/DxePcdLib/DxePcdLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Logo/LogoDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ArmVirtPkg/CloudHvPlatformHasAcpiDtDxe/CloudHvHasAcpiDtDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/PrintDxe/PrintDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/EmbeddedPkg/Library/TimeBaseLib/TimeBaseLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Library/Ds1307RealTimeClockLib/Ds1307RealTimeClockLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Library/PlatformBootManagerLib/PlatformBootManagerLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/BootLogoLib/BootLogoLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/UefiUsbLib/UefiUsbLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Library/ConfigUtilsLib/ConfigUtilsLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Features/ManageabilityPkg/Library/IpmiCommandLib/IpmiCommandLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/DxeIpmiLibIpmiProtocol/DxeIpmiLibIpmiProtocol.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Applications/EfuseTool/EfuseTool.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ShellPkg/Library/UefiShellInstall1CommandsLib/UefiShellInstall1CommandsLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ShellPkg/Library/UefiShellDebug1CommandsLib/UefiShellDebug1CommandsLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/UefiShellLevel3CommandsLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Library/EfuseLib/EfuseLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ShellPkg/Library/UefiShellBcfgCommandLib/UefiShellBcfgCommandLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ShellPkg/Library/UefiHandleParsingLib/UefiHandleParsingLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/LockBoxNullLib/LockBoxNullLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/PlatformPei/PlatformPeiLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/CpuPei/CpuPeiLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/MemoryInitPei/MemoryInitPeiLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/EmbeddedPkg/Library/PrePiMemoryAllocationLib/PrePiMemoryAllocationLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/EmbeddedPkg/Library/FdtLib/FdtLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/EmbeddedPkg/Library/PrePiLib/PrePiLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/EmbeddedPkg/Library/PrePiHobLib/PrePiHobLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/EmbeddedPkg/Library/PrePiExtractGuidedSectionLib/PrePiExtractGuidedSectionLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/OvmfPkg/RiscVVirt/Library/PrePiHobListPointerLib/PrePiHobListPointerLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/SerialDxe/SerialDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Library/SmbiosInformation/SmbiosInformationLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/SG2044Pkg/Library/PciPlatformLib/PciPlatformLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/SG2044Pkg/Library/PciHostBridgeLib/PciHostBridgeLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/SG2044Pkg/Library/PciSegmentLib/PciSegmentLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/Library/DxeIpIoLib/DxeIpIoLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/EmbeddedPkg/Library/NonCoherentDmaLib/NonCoherentDmaLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/BaseBmpSupportLib/BaseBmpSupportLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/EmbeddedPkg/Library/AcpiLib/AcpiLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/UefiCpuPkg/Library/BaseRiscVFpuLib/BaseRiscVFpuLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/UefiCpuPkg/Library/BaseRiscVMmuLib/BaseRiscVMmuLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Features/ManageabilityPkg/Library/ManageabilityTransportSsifLib/Dxe/DxeManageabilityTransportSsif.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Features/ManageabilityPkg/Library/BaseManageabilityTransportHelperLib/BaseManageabilityTransportHelper.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Features/ManageabilityPkg/Library/PlatformBmcReadyLibNull/PlatformBmcReadyLibNull.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/DxeSmbusLib/DxeSmbusLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/UefiScsiLib/UefiScsiLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/SecurityPkg/Library/SecureBootVariableProvisionLib/SecureBootVariableProvisionLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/FileExplorerLib/FileExplorerLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/SecurityPkg/Library/SecureBootVariableLib/SecureBootVariableLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/SecurityPkg/Library/PlatformPKProtectionLibVarPolicy/PlatformPKProtectionLibVarPolicy.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/SecurityPkg/Library/DxeImageVerificationLib/DxeImageVerificationLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/DxeSecurityManagementLib/DxeSecurityManagementLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/DxeCapsuleLibNull/DxeCapsuleLibNull.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/CryptoPkg/Library/BaseCryptLib/BaseCryptLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Library/IniParserLib/IniParserLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/SG2044Pkg/AcpiTables/SG2044EvbAcpiTables.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ShellPkg/Library/UefiShellLib/UefiShellLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/UefiSortLib/UefiSortLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BaseOrderedCollectionRedBlackTreeLib/BaseOrderedCollectionRedBlackTreeLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/ImagePropertiesRecordLib/ImagePropertiesRecordLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/UefiCpuPkg/Library/BaseRiscV64CpuExceptionHandlerLib/BaseRiscV64CpuExceptionHandlerLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/DebugAgentLibNull/DebugAgentLibNull.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BasePeCoffLib/BasePeCoffLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/DxeCoreHobLib/DxeCoreHobLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BaseUefiDecompressLib/BaseUefiDecompressLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BaseCacheMaintenanceLib/BaseCacheMaintenanceLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BasePeCoffExtraActionLibNull/BasePeCoffExtraActionLibNull.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/DxeCoreEntryPoint/DxeCoreEntryPoint.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BasePcdLibNull/BasePcdLibNull.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/EmbeddedPkg/Library/NorFlashInfoLib/NorFlashInfoLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BaseCpuLib/BaseCpuLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/Library/DxeUdpIoLib/DxeUdpIoLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/Library/DxeNetLib/DxeNetLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/Library/DxeDpcLib/DxeDpcLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/RuntimeDxeReportStatusCodeLib/RuntimeDxeReportStatusCodeLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/OvmfPkg/RiscVVirt/Library/ResetSystemLib/BaseResetSystemLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BasePerformanceLibNull/BasePerformanceLibNull.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/DxeServicesLib/DxeServicesLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/BaseSortLib/BaseSortLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/VarCheckUefiLib/VarCheckUefiLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/VariablePolicyHelperLib/VariablePolicyHelperLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/BaseVariableFlashInfoLib/BaseVariableFlashInfoLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/SecurityPkg/Library/AuthVariableLib/AuthVariableLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/SecurityPkg/Library/DxeTpmMeasurementLib/DxeTpmMeasurementLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/UefiRuntimeLib/UefiRuntimeLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/VarCheckLib/VarCheckLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/DxeHobLib/DxeHobLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/VariablePolicyLib/VariablePolicyLibRuntimeDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/CryptoPkg/Library/BaseCryptLib/RuntimeCryptLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/OvmfPkg/Library/PlatformSecureLib/PlatformSecureLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BaseSafeIntLib/BaseSafeIntLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/CryptoPkg/Library/OpensslLib/OpensslLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/CryptoPkg/Library/IntrinsicLib/IntrinsicLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Library/RngLib/RngLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Library/TrngLib/TrngLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/UefiCpuPkg/Library/BaseRiscV64CpuTimerLib/BaseRiscV64CpuTimerLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/UefiLib/UefiLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/UefiDevicePathLibDevicePathProtocol/UefiDevicePathLibDevicePathProtocol.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Drivers/SmbusHcDxe/SmbusHcDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Usb/UsbKbDxe/UsbKbDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/Ip4Dxe/Ip4Dxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/StatusCodeHandlerRuntimeDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/SG2044Pkg/Drivers/UiApp/UiApp.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Pci/XhciDxe/XhciDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/SG2044Pkg/Drivers/FirmwareManagerUiDxe/FirmwareManagerUiDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Drivers/DwI2cDxe/DwI2cDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/SG2044Pkg/Drivers/ReserveMemoryDxe/ReserveMemoryDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Drivers/SpifmcDxe/SpiFlashMasterController.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/MemoryTest/NullMemoryTestDxe/NullMemoryTestDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/SG2044Pkg/Drivers/SetDateAndTime/SetDateAndTime.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/BdsDxe/BdsDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/Metronome/Metronome.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Usb/UsbMouseDxe/UsbMouseDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassStorageDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/FaultTolerantWriteDxe/FaultTolerantWriteDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/ArpDxe/ArpDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Drivers/RngDxe/RngDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Drivers/DwSpiDxe/DwSpiDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/DpcDxe/DpcDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Drivers/FlashFvbDxe/FlashFvbDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/Udp4Dxe/Udp4Dxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/EmbeddedPkg/Drivers/FdtClientDxe/FdtClientDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/Console/TerminalDxe/TerminalDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Platform/Sophgo/SG2044Pkg/Drivers/SmbiosPlatformDxe/SmbiosPlatformDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Scsi/ScsiBusDxe/ScsiBusDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/SG2044Pkg/Drivers/BmcLanConfigDxe/BmcLanConfig.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/PCD/Dxe/Pcd.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Drivers/DwGpioDxe/DwGpioDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Drivers/Net/MotorcommPhyDxe/Motorcomm8531PhyDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/ShellPkg/Application/Shell/Shell.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/Acpi/FirmwarePerformanceDataTableDxe/FirmwarePerformanceDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/FatPkg/EnhancedFatDxe/Fat.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/MnpDxe/MnpDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Drivers/MmcDxe/MmcDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/PeilessSec/PeilessSec.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Drivers/Net/StmmacMdioDxe/StmmacMdioDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Drivers/SdHostDxe/SdHostDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/SG2044Pkg/Drivers/Information/Information.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Application/BootManagerMenuApp/BootManagerMenuApp.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Pci/NvmExpressDxe/NvmExpressDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/UefiCpuPkg/CpuIo2Dxe/CpuIo2Dxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Pci/EhciDxe/EhciDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Pci/PciHostBridgeDxe/PciHostBridgeDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/Disk/UdfDxe/UdfDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/TcpDxe/TcpDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Drivers/Net/DwMac4SnpDxe/DwMac4SnpDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/Acpi/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/SG2044Pkg/Drivers/AcpiPlatformDxe/AcpiPlatformDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/Mtftp4Dxe/Mtftp4Dxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Pci/UhciDxe/UhciDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/UefiCpuPkg/CpuDxeRiscV64/CpuDxeRiscV64.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Features/ManageabilityPkg/Universal/IpmiProtocol/Dxe/IpmiProtocolDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Scsi/ScsiDiskDxe/ScsiDiskDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Pci/SataControllerDxe/SataControllerDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/MonotonicCounterRuntimeDxe/MonotonicCounterRuntimeDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Pci/NonDiscoverablePciDeviceDxe/NonDiscoverablePciDeviceDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/EmbeddedPkg/SimpleTextInOutSerial/SimpleTextInOutSerial.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/SG2044Pkg/Pptt/Pptt.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/OvmfPkg/LinuxInitrdDynamicShellCommand/LinuxInitrdDynamicShellCommand.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Core/Dxe/DxeMain.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Drivers/NorFlashDxe/NorFlashDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Ata/AtaBusDxe/AtaBusDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/UefiCpuPkg/CpuTimerDxeRiscV64/CpuTimerDxeRiscV64.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/Applications/FirmwareUpdate/FirmwareUpdate.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/VlanConfigDxe/VlanConfigDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/NetworkPkg/Dhcp4Dxe/Dhcp4Dxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/ResetSystemRuntimeDxe/ResetSystemRuntimeDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2-platforms/Silicon/Sophgo/SG2044Pkg/Drivers/PasswordConfigDxe/PasswordConfigUiDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/ReportStatusCodeRouterRuntimeDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Bus/Ata/AtaAtapiPassThru/AtaAtapiPassThru.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/SecurityPkg/VariableAuthenticated/SecureBootDefaultKeysDxe/SecureBootDefaultKeysDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/SecurityPkg/EnrollFromDefaultKeysApp/EnrollFromDefaultKeysApp.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/SecurityPkg/VariableAuthenticated/SecureBootConfigDxe/SecureBootConfigDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/SecurityPkg/Hash2DxeCrypto/Hash2DxeCrypto.inf [RISCV64]
+Building ... /home/admin1/sophgo-edk2/edk2/MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf [RISCV64]
+
